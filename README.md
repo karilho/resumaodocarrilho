@@ -80,4 +80,5 @@ Ao realizar o projeto, notei duas coisas interessantes, a primeira delas foi o c
 
 A segunda observação, foi em relação aos bugs que estavam ocorrendo, sendo eles o ponto duplo e as vezes a bolinha ficar agarrada tanto encima quanto embaixo, ocasionando problemas de pontuação infinita, confesso que para este problema específicamente não consegui achar uma solução que realmente resolvesse sem criar novos modelos. Então eu resolvi pesquisar e buscar ideias de soluções alternativas e, uma delas que encontrei, foi criar dois novos atores chamados de Borda1 e Borda2 e colocar na função da bolinha que toda vez que fosse contabilizado um ponto, ele devolvesse a bolinha pro centro após 1.5 segundos, resolvendo assim ambos os problemas citados.
 
+![erro2projetoscratch](https://user-images.githubusercontent.com/106081805/177782679-cf5dc5ca-c7c2-4003-85b7-c2188f6bec7f.png)
 
