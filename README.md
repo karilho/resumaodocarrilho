@@ -69,7 +69,7 @@ Exemplos: Python, JavaScript
 ---- PLANO: Iniciante em programação.
 ---- CURSO: Jogos clássicos parte 1: Pong com Javascript
 
-## Primeiro Projeto com Scratch
+## Primeiro Jogo de Pong feito com Scratch
 
 Este foi o primeiro projeto feito na minha vida de um joguinho de pong, foi utilizado a ferramenta Scratch para realizar o jogo com sons, modelo de bolinha e raquetes.
 
@@ -82,3 +82,12 @@ A segunda observação, foi em relação aos bugs que estavam ocorrendo, sendo e
 
 ![erro2projetoscratch](https://user-images.githubusercontent.com/106081805/177782679-cf5dc5ca-c7c2-4003-85b7-c2188f6bec7f.png)
 
+Segue o resultado: https://scratch.mit.edu/projects/712096504/
+
+## Segundo Jogo de Pong feito com P5 Web editor em JavaScript
+
+Este foi o mesmo projeto que o anterior basicamente, porém foi escrito em JavaScript.
+
+Durante a realização do projeto não encontrei muitas dificuldades, a única que foi encontrada era novamente a bolinha agarrando na raquete, porém, utilizei a própria solução proposta no curso para resolve-la. 
+
+Segue o resultado: https://editor.p5js.org/lucascarrilho26/sketches/3f5rifyrj
