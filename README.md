@@ -47,13 +47,19 @@ Exemplos: Python, JavaScript
 
 ## HIERARQUIA DE MEMÓRIA
 
-**Memória Cache L1, L2, L3:** São as memórias mais rápidas de um computador, ficam localizadas na CPU e possuem a maior velocidade, porém o menor armazenamento de dados.
+![hierarquiadememoria](https://user-images.githubusercontent.com/106081805/177784864-4a9220a3-7f37-4206-83bd-637b0205470a.png)
+
+**Registradores:** São as memórias mais rápidas de um computador, ficam localizadas na CPU e possuem o menor armazemento de dados. 
+
+**Memória Cache L1, L2, L3:** São as memórias que também ficam localizadas na CPU e possuem altíssima velocidade, porém baixíssimo armazenamento de dados.
 
 **Memória RAM:** Possuem memória de acesso rápidas com um pouco mais de capacidade.
 
 **SSD e HD:** Possuem grandes capacidades de armazenamento, porém a memória de acesso deles é lenta.
 
 **CLOUD:** Possuem atualmente as maiores capacidades de armazenamento, porém a velocidade deles de transferência de dados é a menor de todas.
+
+-- Créditos ao colega do Movimento Codar Paulo Ferreira por complementar este raciocínio.
 
 ## PASS BY VALUE X PASS BY REFERENCE
 
