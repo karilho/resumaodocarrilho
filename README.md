@@ -47,7 +47,8 @@ Exemplos: Python, JavaScript
 
 ## HIERARQUIA DE MEMÓRIA
 
-![hierarquiadememoria](https://user-images.githubusercontent.com/106081805/177784864-4a9220a3-7f37-4206-83bd-637b0205470a.png)
+![hierarquiacorreto](https://user-images.githubusercontent.com/106081805/177786106-3f7d62e6-0f2a-4828-9af6-622a8d305983.png)
+
 
 **Registradores:** São as memórias mais rápidas de um computador, ficam localizadas na CPU e possuem o menor armazemento de dados. 
 
