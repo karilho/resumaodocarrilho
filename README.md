@@ -64,7 +64,7 @@ Exemplos: Python, JavaScript
 **Pass by Reference:** Neste caso, o valor do endereço de memória é passado para a função, a mesma recebe o valor "original" do parâmetro, portanto, todas as modificações afetam o valor original.
 
 
-# Resumão do Carrilho  | 05.07.2022
+# Resumão do Carrilho  | 07.07.2022
 
 ---- PLANO: Iniciante em programação.
 ---- CURSO: Jogos clássicos parte 1: Pong com Javascript
@@ -75,7 +75,7 @@ Este foi o primeiro projeto feito na minha vida de um joguinho de pong, foi util
 
 Ao realizar o projeto, notei duas coisas interessantes, a primeira delas foi o comportamento mecânico da raquete do oponente. Para solucionar este problema, na parte final, resolvi implementar uma variável como mostra a imagem a seguir, para que ele a cada 0.2 segundos deslize a raquete em uma posição váriavel de acompanhamento da posição y da bolinha entre 30 e -30, criando assim um comportamento mais "natural".
 
-![alt text](C:\Go\src\github.com\karilho\resumaodocarrilho\erro1projetoscratch.png)
+<img src="/resumaodocarrilho\erro2projetoscratch.png" alt="bug1"/>
 
 A segunda observação, foi em relação aos bugs que estavam ocorrendo, sendo eles o ponto duplo e as vezes a bolinha ficar agarrada tanto encima quanto embaixo, ocasionando problemas de pontuação infinita, confesso que para este problema específicamente não consegui achar uma solução que realmente resolvesse sem criar novos modelos. Então eu resolvi pesquisar e buscar ideias de soluções alternativas e, uma delas que encontrei, foi criar dois novos atores chamados de Borda1 e Borda2 e colocar na função da bolinha que toda vez que fosse contabilizado um ponto, ele devolvesse a bolinha pro centro após 1.5 segundos, resolvendo assim ambos os problemas citados.
 
