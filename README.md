@@ -91,10 +91,33 @@ A segunda observação, foi em relação aos bugs que estavam ocorrendo, sendo e
 
 Segue o resultado: https://scratch.mit.edu/projects/712096504/
 
-## Segundo Jogo de Pong feito com P5 Web editor em JavaScript
+## Segundo jogo de Pong feito com P5 Web editor em JavaScript
 
 Este foi o mesmo projeto que o anterior basicamente, porém foi escrito em JavaScript.
 
 Durante a realização do projeto não encontrei muitas dificuldades, a única que foi encontrada era novamente a bolinha agarrando na raquete, porém, utilizei a própria solução proposta no curso para resolve-la. 
 
 Segue o resultado: https://editor.p5js.org/lucascarrilho26/sketches/3f5rifyrj
+
+
+# Resumão do Carrilho  | 10.07.2022
+
+---- PLANO: Iniciante em programação.
+---- CURSO: Jogos clássicos parte 2: laços e listas com JavaScript.
+
+## Terceiro jogo de Pong feito com P5 Web editor em JavaScript
+
+Este foi o segundo jogo feito com o P5 web editor feito em JavaScript, é um jogo baseado no antigo Freeway.
+
+Durante a realização deste projeto, eu acabei tendo a ideia a princípio de modifica-lo com um tema diferente, como, por exemplo, as meninas superpoderosas. Porém, quando comecei a fazer as modificações, acabei
+tendo outra ideia, que foi customizar o som de forma diferente. Quando o "ator" colidia com um dos obstáculos, a colisão deveria emitir um som específico para cada colisão, diferente do projeto que a colisão era padrão.
+
+Portanto, eu tive que aprender a colocar cada som específico para cada colisão, ai que veio maior parte do meu estudo neste projeto: Aprendi a utilizar OBJETOS em JavaScript, ou seja, aprendi a acessar objetos dentro de listas, algo que para mim foi algo bem difícil, pois nunca havia visto este tipo de estudo. 
+
+Dito isso, utilizei a lista pra criar os "vilões" declarando-os com o const, que diferente do let pois no primeiro caso você não consegue altera-lo, seria como se fosse um pass by value, impedindo que ele seja modificado. Então, após cria-los, eu usei o comando vilao[i].som.play(), para acessar cada som específicamente quando o if(colisao) passar naquele índice específico, criando assim um som customizado para cada colisão.  <Offtopic: Para aprender isso me custou 3 horas, mas o conhecimento é eterno, foi difícil mas consegui, quase soltei foguete quando deu certo!!>
+
+Outra observação necessária: Eu criei 6 personalidades apesar de utilizar somente 3 (repeti cada uma delas 1x), pois, um dos bugs que encontrei, era que o indíce estava acessando até o 6, porém não haviam declarações até o 6, por isso consegue resolve-lo utilizando o console.log(i) para entender melhor o que estava acontecendo ali.
+
+Por fim, o resultado foi este: https://editor.p5js.org/lucascarrilho26/sketches/uzZ7Ar3DJ
+
+Outra coisa também que foi feita, foi utilizar setas para direita e esquerda e modificar a velocidade de cada um dos inimigos.
