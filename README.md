@@ -120,4 +120,4 @@ Outra observação necessária: Eu criei 6 personalidades apesar de utilizar som
 
 Por fim, o resultado foi este: https://editor.p5js.org/lucascarrilho26/sketches/uzZ7Ar3DJ
 
-Outra coisa também que foi feita, foi utilizar setas para direita e esquerda e modificar a velocidade de cada um dos vilões.
+Outra coisa também que foi feita, foi utilizar setas para direita / esquerda e modificar a velocidade de cada um dos vilões.
