@@ -128,6 +128,7 @@ Outra coisa também que foi feita, foi utilizar setas para direita / esquerda e 
 ---- CURSO: Git e GitHub: repositório, commit e versões
 
 Neste último curso de nossa primeira formação, aprendemos uma introdução ao Github, ferramenta importante para qualquer desenvolvedor. 
+
 Nesse meio, é possível adicionar cada um dos nossos projetos (inclusive este resumão), compartilhar com outras pessoas, colaborar com projetos alheios entre outros.
 
 A princípio, foi ensinado a criar repositórios no git, pelo site mesmo, depois também ensinaram a adicionar colaboradores e realizar o famoso git commit -m "TEXTO", além de outras coisas como adicionar
@@ -140,38 +141,55 @@ De forma resumida, eu fiz um mini guia para poder ME ORIENTAR a utilizar o git:
 ### Criar repositório: Cria pelo site mesmo ou utilize no VSCODE, ou use o mkdir no terminal para cria-lo.
 
 1 - **git init** >Adicionará o git naquele diretório.
+
 2 - **git status** >Para que ele apresente todos os arquivos modificados daquele local.
+
 3 - **git add .** >Para adicionar os arquivos, o . significa adicionar todos daquele diretório.
+
 4 - **git commit** -m "texto" >Fazer um comentário da modificação. As vezes você pode somente comentar, não sendo necessário dar o push se não quiser modifica-lo.
+
 5 - **git remote add origin URLDOREPOSITÓRIO** >você vai indicar para qual endereço dentro do github irá seu projeto (basta este comando 1x, não precisa usar novamente em futuros commits).
+
 6 - **git push** >Subir o arquivo para o github com as modificações. Pode ser utilizado o push origin *main ou desenvolvimento ou outros*, ou seja, você pode direcionar para qual local o push vai.
 
 ### Clonar repositório: Clona algum repositorio do git para sua máquina local.
 
 1 - Pegue a URL do site, clique em code e copie a url que irá aparecer.
+
 2 - Abra o terminal no seu computador, utilize o comando cd, navegue até a pasta em que você deseja clonar o repositório.
+
 3 - Utilize o comando git clone URLCOPIADA para clonar o repositorio neste local.
 
 ### Comandos extras
 
 1 - **git log**  >Mostra todas alterações feitas em commit.
+
 2 - **git log --oneline** >Mostra as alterações feitas de forma resumida.
+
 3 - **git pull** >Inverso do git push, o git push EMPURRA para o github, o git pull PUXA para sua máquina as alterações.
+
 4 - **git checkout -b desenvolvimento** >Cria uma branch nova com o nome de desenvolvimento e muda a navegação para a mesma.
+
 5 - **git switch main** >Volta para a branch principal.
+
 6 - **git branch** >Mostra todas as "ramificações" ou branchs do projeto.
+
 7 - **git merge XXXXX** >Une a outra branch XXXX para a main, é necessário dar o git push para gravar a união, lembrar de usar git push origin main
 
 ### Restaurar versão anterior
 
 1 - **git log --oneline** >Procure pelo código a esquerda e copie-o.
+
 2 - **git restore --source ###### xxxxxx.js > Os # são utilizados para indicar o código da esquerda, já o xxxxx.js é caso você deseje restaurar somente um arquivo, caso deseje tudo, utilize apenas ponto (.)
+
 3 - **git commmit xxxx.js -m "comentario"** > Aqui você coloca que voltou ao estado original, para poder separar as modificações.
+
 4 - **git push** > Para subir a versão anterior do arquivo modificado.
 
 
 ## GIT BRANCH
 
 São chamadas de "ramificações do projeto", no curso criamos a branch de desenvolvimento, para utilizarmos uma versão "alternativa de testes".
+
 Depois de concluidos, pode ser utilizados o **MERGE**, que é basicamente unir a desenvolvimento com a main. De forma resumida, use o git switch main, depois o git merge XXXX para unir e, por fim, o push origin main.
 
